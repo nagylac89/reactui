@@ -1,0 +1,38 @@
+.btn {
+	@apply h-10 
+		border-none px-4 
+		cursor-pointer
+		disabled:cursor-not-allowed;
+}
+
+.btn.btn-primary {
+	@apply bg-blue-500 
+		text-white 
+		hover:enabled:bg-blue-600 
+		active:enabled:bg-blue-400
+		disabled:bg-blue-400;
+}
+
+.btn.btn-secondary {
+	@apply bg-slate-400 
+		text-white 
+		hover:enabled:bg-slate-500 
+		active:enabled:bg-slate-300
+		disabled:bg-slate-300;
+}
+
+.btn.btn-danger {
+	@apply bg-red-500 
+		text-white 
+		hover:enabled:bg-red-600 
+		active:enabled:bg-red-400
+		disabled:bg-red-400;
+}
+
+.btn.btn-success {
+	@apply bg-green-500 
+		text-white 
+		hover:enabled:bg-green-600 
+		active:enabled:bg-green-400
+		disabled:bg-green-400;
+}

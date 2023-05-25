@@ -1,0 +1,25 @@
+input.text-field {
+	@apply h-10 
+		w-full
+		border
+		border-slate-300
+		outline-none
+		px-4
+		hover:ring
+		focus:ring
+		hover:ring-slate-200
+		focus:ring-blue-200
+		focus:border-blue-500;
+}
+
+.field-container-inline {
+	@apply flex;
+}
+
+.field-container-inline .field-label {
+	@apply whitespace-nowrap overflow-hidden text-ellipsis pt-1;
+}
+
+.field-container-inline .field-body {
+	@apply flex flex-1;
+}
